@@ -33,7 +33,7 @@ def load_data(filename):
         with open(os.path.join(DATA_DIR, filename), 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
-        print(f"FATAL: Could not load '{filename}'. Run preprocess.py first.")
+        print(f"FATAL: Could not load '{filename}' at {os.path.join(DATA_DIR, filename)}. Run preprocess.py first.")
         return {}
 
 # Load data once at startup
