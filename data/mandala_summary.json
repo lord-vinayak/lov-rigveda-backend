@@ -1,0 +1,160 @@
+[
+    {
+        "mandala": 1,
+        "title": "Mandala 1",
+        "vocab_size": 4479,
+        "dominant_deities": [
+            "Indra",
+            "Agni",
+            "Asvins",
+            "The Maruts",
+            "All the Gods"
+        ],
+        "total_hymns": 191,
+        "total_verses": 2006,
+        "avg_verses_per_hymn": 10.5,
+        "avg_words_per_verse": 16.21
+    },
+    {
+        "mandala": 2,
+        "title": "Mandala 2",
+        "vocab_size": 1984,
+        "dominant_deities": [
+            "Indra",
+            "Agni",
+            "Brahmanaspati",
+            "Diverse Gods",
+            "Adityas"
+        ],
+        "total_hymns": 43,
+        "total_verses": 429,
+        "avg_verses_per_hymn": 9.98,
+        "avg_words_per_verse": 18.15
+    },
+    {
+        "mandala": 3,
+        "title": "Mandala 3",
+        "vocab_size": 2065,
+        "dominant_deities": [
+            "Indra",
+            "Agni",
+            "All the Gods",
+            "Agni Vaisvanara",
+            "Diverse Gods"
+        ],
+        "total_hymns": 62,
+        "total_verses": 617,
+        "avg_verses_per_hymn": 9.95,
+        "avg_words_per_verse": 16.13
+    },
+    {
+        "mandala": 4,
+        "title": "Mandala 4",
+        "vocab_size": 2189,
+        "dominant_deities": [
+            "Indra",
+            "Agni",
+            "The Ribhus",
+            "Dadhikra",
+            "Indra and Varuna"
+        ],
+        "total_hymns": 58,
+        "total_verses": 589,
+        "avg_verses_per_hymn": 10.16,
+        "avg_words_per_verse": 16.53
+    },
+    {
+        "mandala": 5,
+        "title": "Mandala 5",
+        "vocab_size": 2449,
+        "dominant_deities": [
+            "Agni",
+            "All the Gods",
+            "The Maruts",
+            "Indra",
+            "Mitra and Varuna"
+        ],
+        "total_hymns": 87,
+        "total_verses": 727,
+        "avg_verses_per_hymn": 8.36,
+        "avg_words_per_verse": 16.0
+    },
+    {
+        "mandala": 6,
+        "title": "Mandala 6",
+        "vocab_size": 2523,
+        "dominant_deities": [
+            "Indra",
+            "Agni",
+            "All the Gods",
+            "Pusan",
+            "Soma, Indra and Others"
+        ],
+        "total_hymns": 75,
+        "total_verses": 765,
+        "avg_verses_per_hymn": 10.2,
+        "avg_words_per_verse": 16.45
+    },
+    {
+        "mandala": 7,
+        "title": "Mandala 7",
+        "vocab_size": 2514,
+        "dominant_deities": [
+            "Indra",
+            "Agni",
+            "All the Gods",
+            "Asvins",
+            "The Maruts"
+        ],
+        "total_hymns": 104,
+        "total_verses": 841,
+        "avg_verses_per_hymn": 8.09,
+        "avg_words_per_verse": 16.94
+    },
+    {
+        "mandala": 8,
+        "title": "Mandala 8",
+        "vocab_size": 3316,
+        "dominant_deities": [
+            "Indra",
+            "Agni",
+            "Asvins",
+            "The Maruts",
+            "Adityas"
+        ],
+        "total_hymns": 103,
+        "total_verses": 1716,
+        "avg_verses_per_hymn": 16.66,
+        "avg_words_per_verse": 12.81
+    },
+    {
+        "mandala": 9,
+        "title": "Mandala 9",
+        "vocab_size": 2078,
+        "dominant_deities": [
+            "Soma",
+            "Soma and Other Gods",
+            "Apri Hymn"
+        ],
+        "total_hymns": 114,
+        "total_verses": 1108,
+        "avg_verses_per_hymn": 9.72,
+        "avg_words_per_verse": 12.79
+    },
+    {
+        "mandala": 10,
+        "title": "Mandala 10",
+        "vocab_size": 4536,
+        "dominant_deities": [
+            "Indra",
+            "All the Gods",
+            "Agni",
+            "Asvins",
+            "Wedding Hymn"
+        ],
+        "total_hymns": 191,
+        "total_verses": 1754,
+        "avg_verses_per_hymn": 9.18,
+        "avg_words_per_verse": 17.19
+    }
+]
