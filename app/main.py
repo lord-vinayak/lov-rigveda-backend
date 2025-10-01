@@ -36,8 +36,7 @@ def load_data(filename):
 # MANDALA_DATA_PATH = os.path.join(os.path.dirname(__file__), "mandala_stats.json")
 mandala_stats = load_data("mandala_summary.json")
 
-CORPUS_PATH = "../../rigveda_corpus.json"
-corpus = load_data(CORPUS_PATH)
+corpus = load_data("rigveda_corpus.json")
 
 @app.get("/api/mandala/{mandala_id}")
 def get_mandala(mandala_id: str):
