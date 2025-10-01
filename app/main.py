@@ -8,6 +8,7 @@ app = FastAPI(
     description="API for exploring the linguistic and thematic evolution of the Rig Veda."
 )
 
+# Run by uvicorn main:app --reload --port 8081
 
 origins = [
     "http://localhost:3000",            # dev
@@ -24,9 +25,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, '..', 'data')
+
 def load_data(filename):
     try:
-        with open(f'../data/{filename}', 'r', encoding='utf-8') as f:
+        with open(os.path.join(DATA_DIR, filename), 'r', encoding='utf-8') as f:
             return json.load(f)
     except FileNotFoundError:
         print(f"FATAL: Could not load '{filename}'. Run preprocess.py first.")
