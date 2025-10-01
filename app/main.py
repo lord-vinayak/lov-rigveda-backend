@@ -13,7 +13,7 @@ app = FastAPI(
 origins = [
     "http://localhost:3000",            # dev
     "http://127.0.0.1:5173",            # Vite dev (if used)
-    "https://lov-rigveda.vercel.app/"  # <--- replace with your actual Vercel URL
+    "https://lov-rigveda.vercel.app"  # <--- replace with your actual Vercel URL
 ]
 
 # Allow CORS for local dev
